@@ -1,5 +1,6 @@
-# assignment-6-Amanuel_Jordan
+# TicTacToe server app
 Server written by Jordan Stakenas
+Tested on Unix server, compiled with GCC 
 
 This server supports single player vs AI tictactoe games, with base settings
 for up to 10 simultaneous games. Game lobbies operate under first-come first-serve
@@ -24,7 +25,7 @@ datagram format, where each segment is a single byte:
  |version|command|choice|game#|sequence#|gameBoardTiles[9bytes]|
  
 
-Usage is as follows
+Usage is as follows, on a unix system with GCC compiler 
 
     make
 	
